@@ -6,10 +6,14 @@ body {
   margin: 0;
   background-color: #E4E1EC;
 }
-header {
+header, footer {
   width: 100vw;
   background-color: #BDB9CB;
   padding: 25px 0;
+}
+footer {
+  margin-top: 100px;
+  text-align: center;
 }
 .head-contain, main {
   width: 70vw;
