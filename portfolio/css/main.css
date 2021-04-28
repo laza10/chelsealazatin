@@ -4,7 +4,7 @@
 /* layout styles */
 body {
   margin: 0;
-  background-color: white;
+  background-color: #E4E1EC;
 }
 header {
   width: 100vw;
@@ -12,9 +12,8 @@ header {
   padding: 25px 0;
 }
 .head-contain, main {
-  width: 60vw;
+  width: 70vw;
   margin: 0 auto;
-  background-color: #BDB9CB;
   display: flow-root;
 }
 .title {
@@ -22,6 +21,19 @@ header {
 }
 nav {
   float: right;
+}
+.row {
+  width: 100%;
+  display: flow-root;
+}
+.item {
+  width: calc(33.33333% - (50px / 3));
+  float: left;
+  margin-top: 25px;
+}
+.margins {
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 /* type styles */
@@ -38,4 +50,9 @@ ul {
 li {
   float: left;
   margin: 0 0 0 25px;
+}
+
+/* image styles */
+img {
+  width: 100%;
 }
