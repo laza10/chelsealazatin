@@ -1,0 +1,45 @@
+body {
+  background-color: #E6E6FA;
+  margin-top: 100px;
+  margin-left: 100px;
+  font-family: "overpass", sans-serif
+}
+h1 {
+  color: white;
+  font-family: "overpass", sans-serif;
+}
+h3 {
+  color: rgb(185,187,226);
+}
+ul {
+  color: #E6E6FA;
+  padding: 0;
+}
+a:hover {
+  color: rgb(136,122,183);
+}
+
+/******* layout styles ******/
+header {
+  width: 75vw;
+  margin: 25px auto;
+  background-color: #E6E6FA;
+}
+main {
+  width: 60vw;
+  margin: 25px auto;
+  background-color: #E6E6FA;
+  display: flow-root;
+}
+.work {
+  width: 50%;
+  background-color: #E6E6FA;
+  float: left;
+}
+
+/******** media queries ********/
+@media screen and (max-width: 680px) {
+  .work {
+    width: 180%;
+    margin-bottom: 50px;
+  }
