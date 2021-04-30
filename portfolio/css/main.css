@@ -38,8 +38,8 @@ nav {
 }
 .row {
   width: 100%;
-  display: flow-root;
   margin-top: 100px;
+  display: flow-root;
 }
 .item {
   width: calc(33.33333% - (50px / 3));
